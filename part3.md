@@ -258,4 +258,9 @@ At this point, I would open these files and manually choose or combine the chang
 ---
 
 This explanation now provides not only the steps for resolving conflicts but also explains **why** they occur — typically due to overlapping changes in the same area of the code. This adds context and shows a deeper understanding of how Git works.
+Sure! Here's a simple explanation in 3–4 lines:
+
+> **Interactive rebasing** lets you edit commit history before pushing code. You can reorder, squash, rename, or remove commits using `git rebase -i`. It's useful for keeping the Git history clean and understandable. I use it before merging to main to organize my commits.
+
+Would you like a quick example to go with it?
 
