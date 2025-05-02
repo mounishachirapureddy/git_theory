@@ -262,5 +262,40 @@ Sure! Here's a simple explanation in 3–4 lines:
 
 > **Interactive rebasing** lets you edit commit history before pushing code. You can reorder, squash, rename, or remove commits using `git rebase -i`. It's useful for keeping the Git history clean and understandable. I use it before merging to main to organize my commits.
 
-Would you like a quick example to go with it?
+When you're asked about **interactive rebasing** in an interview, the interviewer is usually testing your understanding of Git, especially your ability to clean up and manage commit history.
+
+---
+
+### **What is Interactive Rebasing?**
+
+**Interactive rebasing** in Git (using `git rebase -i`) lets you:
+
+* **Reorder commits**
+* **Squash commits** (combine them)
+* **Edit commit messages**
+* **Drop commits**
+* **Split a commit into multiple ones**
+
+It's used to rewrite commit history in a clean, readable, and organized way **before merging to the main branch**.
+
+---
+
+### **Example You Can Give in an Interview**
+
+> "Interactive rebasing allows me to clean up my commit history before pushing to a shared branch. For example, if I have 5 messy commits like 'fixed bug', 'typo', 'added test', I can squash them into one clean commit like 'Add login validation with tests' using `git rebase -i HEAD~5`. This makes the history easier to understand for others."
+
+---
+
+### **Why Interviewers Care**
+
+They want to know if:
+
+* You understand how Git works under the hood.
+* You can maintain a clean and meaningful commit history.
+* You know how to safely use advanced Git commands.
+
+---
+
+Would you like a step-by-step example to explain during an interview?
+
 
